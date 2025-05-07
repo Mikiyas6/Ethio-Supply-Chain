@@ -1,8 +1,8 @@
 import { formatCurrency } from "../../utils/helpers";
 import DeleteItem from "./DeleteItem";
 import UpdateItemQuantity from "./updateItemQuantity";
-function CartItem({ item }) {
-  const { pizzaId, name, quantity, totalPrice } = item;
+function CartItem({ pizza }) {
+  const { pizzaId, name, quantity, totalPrice } = pizza;
 
   return (
     <li className="py-3 sm:flex sm:items-center sm:justify-between">
