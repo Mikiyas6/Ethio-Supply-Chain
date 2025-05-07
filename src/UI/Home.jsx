@@ -1,9 +1,7 @@
 import { useSelector } from "react-redux";
-import bg from "../../public/bg.jpg";
 import CreateUser from "../features/user/CreateUser";
 import Button from "./Button";
 import { Link } from "react-router-dom";
-import Header from "./Header";
 function Home() {
   const username = useSelector((store) => store.user.username);
   return (
